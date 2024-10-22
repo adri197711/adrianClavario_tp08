@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adrián Clavario Web</title>
+    <link rel="website icon" type="png" href="./assets/imgs/mundo.png">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/84ffb2d056.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&family=Roboto+Mono:wght@200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+    <header>
+        <a href="#" class="logo">ADRIAN WEB</a>
+
+        <input type="checkbox" name="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="menu-icon-action">
+            <div class='fa-solid fa-bars' id="menu-icon"></div>
+        </label>
+
+        <ul class="nav-bar">
+            <li><a href="#">Home</a></li>
+            <li><a href="#sobre-mi">Sobre mí</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </header>
+
+    <section class="hero" id="sobre-mi">
+        <div class="icons">
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-github"></i>
+        </div>
+
+        <div class="hero-text">
+            <h5>Frontend Developer</h5>
+            <h4>HTML CSS</h4>
+            <h1>Adrián Web</h1>
+            <p>Soy un desarrollador dedicado a buscar las <br>
+                soluciones informáticas mas creativas para<br>
+                tu empresa, producto o servicio en la red</p>
+        </div>
+
+        <div class="hero-img">
+            <img src="../adrianClavario_tp08/assets/imgs/developer.png" alt="developer foto">
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <h3><i class="fa-solid fa-screwdriver-wrench tools"></i>
+            Mira mis proyectos</h3>
+
+        <div class="proyectos">
+            <div class="div-proyectos">
+                <img src="./assets/imgs/logo-mercado-liebre.svg" alt="logo mercado liebre">
+            </div>
+            <div class="div-proyectos">
+                <img src="./assets/imgs/proyecto2.png" alt="proyecto html css">
+            </div>
+        </div>
+
+        <div class="proyectos2">
+            <div class="div-proyectos2">
+                <img src="./assets/imgs/logo-netflix.png" alt="logo mercado liebre">
+            </div>
+            <div class="div-proyectos2">
+                <img src="./assets/imgs/calculadora.webp" alt="proyecto html css">
+            </div>
+        </div>
+    </section>
+
+    <div class="contacto">
+        <form action="" id="contacto">
+            <h4>Envia tu mensaje</h4>
+
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre">
+
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Email">
+
+            <label for="Telefono">Teléfono</label>
+            <input type="tel" name="telefono" id="telefono" placeholder="Escribe tu teléfono">
+            <label for="mensaje">Mensaje</label>
+            <textarea name="mensaje" id="mensaje" placeholder="Deja tu mensaje"></textarea>
+            <input class="boton-submit" type="submit" value="Enviar">
+        </form>
+    </div>
+
+    <div class="scroll-down">
+        <a href="#contacto"><i class="fa-solid fa-arrow-down"></i></a>
+    </div>
+
+    <footer class="footer">
+        <p>&copy;2024 - Desarrollado por Adrián Clavario</p>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,50 @@
+header {
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(145.60deg,#34395d 40%, #4e6cac 70%);
+  padding: 10px 5%;
+  opacity: .8;
+}
+
+.logo {
+  animation: logo 3s ease-in-out infinite alternate-reverse; 
+  font-size: 16px;
+  font-weight: 800;
+}
+@keyframes logo {
+  0%{
+  font-size: 18px;
+  color: rgba(253, 253, 253, .6);
+  text-shadow: -5px 1px 3px black, 0 0 25px blue, 2px 0 5px darkblue;}
+}
+
+ul {
+  display: flex;
+}
+
+.nav-bar a {
+margin-left: 10px;
+font-size: 10px;
+font-weight: 600;
+border-bottom: 2px solid transparent; 
+transition: all .5s ease; 
+text-shadow: 1px 1px 3px black, 0 0 25px blue, 2px 0 5px darkblue;
+}
+
+.nav-bar a:hover {
+border-bottom: 2px solid white; 
+} 
+
+#menu-toggle {
+  display: none;
+}
+#menu-icon{
+  display: none;
+}

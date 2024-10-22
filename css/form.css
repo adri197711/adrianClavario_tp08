@@ -1,0 +1,61 @@
+form {
+  background: linear-gradient(15.80deg, #34395d 42%, #4e6cac 64%);
+  line-height: 25px;
+  border: 5px ridge #34395d;
+  border-radius: 15px;
+  margin: 25px auto;
+  width: 60%;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  padding: 3% 5%;
+}
+
+.contacto {
+  display: flex;
+  flex-direction: row;
+}
+
+form h4 {
+  font-family: "roboto";
+  font-size: 24px;
+  color: #34395a;
+  text-align: center;
+  font-weight: 900;
+
+}
+
+form label:hover {
+  transform: translateY(-5px);
+  text-shadow: 5px 5px 3px rgb(19, 17, 17), 0 0 25px rgb(123, 123, 181), 2px 0 5px rgb(245, 245, 248);
+}
+
+
+form input {
+  border: none;
+  border-radius: 2px;
+  padding: 5px;
+  width: 100%;
+  font-size: 8px;
+}
+
+form textarea {
+  font-size: 10px;
+  width: 100%;
+  height: 50px;
+}
+
+input.boton-submit {
+  width: 15vw;
+  margin: 15px auto;
+  padding: 5px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #080808;
+}
+
+input.boton-submit:hover {
+  background-color: #080808;
+  color: aliceblue;
+  cursor: pointer;
+}
